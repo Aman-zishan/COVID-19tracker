@@ -1,7 +1,7 @@
 <p align="center">
  <img height="300px" width="310px" src="g19616.png" />
  </p>
-This webApp extracts text from an image :heart_eyes:
+This WebApp gives up-to-date data about COVID-19 cases   
 
  <h3> Tech stack used: :octocat: </h3>
 
@@ -15,7 +15,7 @@ This webApp extracts text from an image :heart_eyes:
 1. **:round_pushpin: clone the repository.**
 
    ```shell
-   $git clone https://github.com/Aman-zishan/textextractor2.0.git
+   $git clone https://github.com/Aman-zishan/COVID-19tracker.git
 
    ```
 2. **:checkered_flag: navigate to downloaded folder.**
