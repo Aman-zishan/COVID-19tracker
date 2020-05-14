@@ -1,7 +1,25 @@
-<html>
-<body>
-<form action="{{url_for('updates')}}" method="POST" >
-	<select name='op'>
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>covid19tracker </title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+   <!-- CSS here -->
+   <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+   </head>
+   <body>
+   <div align="center" style="padding-top:100px;">
+   <img src="{{ url_for('static', filename='logo.png') }}" height="250px" width="250px" alt="text">
+   </div>
+   <div align="center">
+   <form action="{{url_for('updates')}}" method="POST" >
+	<select style="border-radius:14px;height:25px;" name='op'>
 	<option value="IN">India</option>
     <option value="AF">Afghanistan</option>
 	<option value="AX">Åland Islands</option>
@@ -252,7 +270,9 @@
 	<option value="ZM">Zambia</option>
 	<option value="ZW">Zimbabwe</option>         
     </select>
-	<input type="submit" value="Send">
+	<input style="border-radius:14px;border:0px;height:25px;width:50px;" type="submit" value="Send">
 </form>
+</div>
 </body>
 </html>
+  
